@@ -1,0 +1,6 @@
+.calculator {
+    background-color: grey;
+    width: 200px;
+    display: flexbox;
+    text-align: center;
+}
