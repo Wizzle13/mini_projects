@@ -1,6 +1,57 @@
+:root {
+    --CalWidth: 400px;
+    --ButWidth: 95px;
+    --ZeroButton: 180px;
+    --EquilButton: 380px;
+}
+
+div {
+    border: 2px solid gray;
+}
 .calculator {
     background-color: grey;
-    width: 200px;
-    display: flexbox;
+    width: var(--CalWidth);
+    display: flex;
+    flex-direction: column;
     text-align: center;
+   
+}
+
+.display {
+    width: var(--EquilButton);
+    height: var(--ButWidth);
+}
+
+.numpad {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column
+}
+
+.numrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.expresions {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: var(--ButWidth);
+    height: var(--ButWidth);
+    font-size: 35px;
+}
+
+.zerobutton {
+    width: var(--ZeroButton);
+}
+
+.equil button {
+    width: var(--EquilButton);
 }
